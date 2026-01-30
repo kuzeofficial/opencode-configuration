@@ -6,6 +6,7 @@
     "@tarquinen/opencode-dcp@latest",
     "opencode-antigravity-auth@beta"
   ],
+  "autoupdate": true,
   "mcp": {
     "context7": {
       "type": "remote",
