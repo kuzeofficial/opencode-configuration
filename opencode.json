@@ -4,10 +4,17 @@
     "oh-my-opencode@latest",
     "@plannotator/opencode@latest",
     "@tarquinen/opencode-dcp@latest",
-    "opencode-antigravity-auth@beta"
+    "opencode-antigravity-auth@beta",
+    "opencode-add-dir@latest"
   ],
   "autoupdate": true,
   "mcp": {
+    "drawio": {
+      "command": "npx",
+      "args": [
+        "@drawio/mcp"
+      ]
+    },
     "context7": {
       "type": "remote",
       "url": "https://mcp.context7.com/mcp",
