@@ -10,9 +10,11 @@
   "autoupdate": true,
   "mcp": {
     "drawio": {
-      "command": "npx",
-      "args": [
-        "@drawio/mcp"
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@drawio/mcp@latest"
       ]
     },
     "context7": {
@@ -30,7 +32,7 @@
         "-y",
         "chrome-devtools-mcp@latest"
       ]
-    },
+    }
   },
   "compaction": {
     "auto": true,
