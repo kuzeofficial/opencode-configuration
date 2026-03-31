@@ -35,6 +35,7 @@
   },
   "plugin": [
     "opencode-anthropic-login-via-cli@latest",
-    "opencode-wakatime@latest"
+    "opencode-wakatime@latest",
+    "opencode-add-dir@latest"
   ]
 }
